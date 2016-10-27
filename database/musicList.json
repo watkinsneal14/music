@@ -1,0 +1,38 @@
+[
+{
+    "id": "1",
+    "title": "野子",
+    "time": "03:12",
+    "singer": "苏运莹hebe",
+    "src": "../files/1.mp3"
+}, 
+{
+    "id": "2",
+    "title": "够本",
+    "time": "03:12",
+    "singer": "ask",
+    "src": "../files/2.mp3"
+},
+{
+    "id": "3",
+    "title": "吻别",
+    "time": "03:12",
+    "singer": "张学友",
+    "src": "../files/3.mp3"
+},
+{
+    "id": "4",
+    "title": "中国人",
+    "time": "03:12",
+    "singer": "刘德华",
+    "src": "../files/4.mp3"
+},
+{
+    "id": "5",
+    "title": "友情岁月",
+    "time": "03:12",
+    "singer": "汪峰",
+    "src": "../files/5.mp3"
+}
+
+]

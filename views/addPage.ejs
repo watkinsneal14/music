@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的音乐-添加页</title>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">    
+    
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1>我的音乐网站<small>添加页</small> </h1>
+        <a href="/index.html" class="addMusic btn btn-success">返回首页</a>
+    </div>
+    <div class="container">
+        <form action="/addMusic" method="POST">
+            <div class="form-group">
+                <label for="musicId">歌曲编号：</label>
+                <input id="musicId" type="text" name="id" class="form-control" placeholder="请输入歌曲编号">
+                <label for="musicTitle">歌曲标题：</label>
+                <input type="text" id="musicTitle" name="title" class="form-control" placeholder="请输入歌曲标题">
+                <label for="musicTime">歌曲时长：</label>
+                <input type="text" id="musicTime" name="time" class="form-control" placeholder="请输入歌曲时长">
+                <label for="musicSinger">歌手名称：</label>
+                <input type="text" id="musicSinger" name="singer" class="form-control" placeholder="请输入歌手">
+                <label for="musicSrc">歌曲路径：</label>
+                <input type="text" id="musicSrc" name="src" class="form-control" placeholder="请输入歌曲路径">
+
+                <input type="submit" class="form-control btn btn-success btn-default" value="添加">
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+</html>
